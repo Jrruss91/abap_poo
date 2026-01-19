@@ -1,0 +1,19 @@
+CLASS zcl_122_cargo_plane_4919 DEFINITION INHERITING FROM zcl_121_airplane_4919
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS airplane_type REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_122_cargo_plane_4919 IMPLEMENTATION.
+  METHOD airplane_type.
+    rv_airplane_type = 'Cargo Plane'.
+  ENDMETHOD.
+
+ENDCLASS.
